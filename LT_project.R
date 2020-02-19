@@ -42,7 +42,7 @@ textCorpus=textCorpus[-c(which(as.vector(textCorpus$word)%in%stopwordslangs$word
 
 
 yellowPalette <- c("black", "gold")
-url = "https://www.google.com/imgres?imgurl=http%3A%2F%2Fi1.sndcdn.com%2Favatars-000700723486-vbjkza-original.jpg&imgrefurl=https%3A%2F%2Fwww.stitcher.com%2Fpodcast%2Fluke-thomas%2Fpromotional-malpractice&tbnid=gT6f6VKjDtpDrM&vet=12ahUKEwii_fO_0cznAhWPC98KHe8gBEgQMygCegUIARDQAQ..i&docid=cQkhH1cbPhk4FM&w=1400&h=1400&q=luke%20thomas%20logo&ved=2ahUKEwii_fO_0cznAhWPC98KHe8gBEgQMygCegUIARDQAQ"
+url = #"....logo_url"
 lt <- "lt.jpg"
 download.file(url, lt) # download file
 lt="lt.jpg"
